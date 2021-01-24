@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="/socket.io/socket.io.js"></script>
+
+    <script src="/script.js" defer></script>
+    <title>Tic Tac Toe</title>
+</head>
+
+<!-- <title>Chat App</title> -->
+<script>
+    const roomName = "<%= roomName %>"
+    const boarded = "<%= board %>"
+    // const turn = "<%= board %>"
+    const ipaddress = "<%= ipaddress %>"
+    const circleTurned = "<%= circleTurn %>"
+</script>
+
+<body>
+    <div class="board" id="board">
+        <div class="cell" data-cell position="0"></div>
+        <div class="cell" data-cell position="1"></div>
+        <div class="cell" data-cell position="2"></div>
+        <div class="cell" data-cell position="3"></div>
+        <div class="cell" data-cell position="4"></div>
+        <div class="cell" data-cell position="5"></div>
+        <div class="cell" data-cell position="6"></div>
+        <div class="cell" data-cell position="7"></div>
+        <div class="cell" data-cell position="8"></div>
+    </div>
+    <div class="winning-message" id="winningMessage">
+        <div data-winning-message-text></div>
+        <button id="restartButton">Restart</button>
+    </div>
+</body>
+
+</html>

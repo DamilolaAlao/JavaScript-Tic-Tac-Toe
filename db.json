@@ -1,0 +1,40 @@
+{
+  "rooms": {
+    "hyp": {
+      "users": {},
+      "board": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "num": 0,
+      "passcode": "",
+      "circleTurn": false,
+      "roundWon": false
+    },
+    "hello": {
+      "users": {},
+      "board": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "num": 0,
+      "passcode": "",
+      "circleTurn": false,
+      "roundWon": false
+    }
+  }
+}
